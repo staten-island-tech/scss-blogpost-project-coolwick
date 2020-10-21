@@ -1,0 +1,53 @@
+@import "_variables.scss";
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
+
+body {
+  background-color: color(dbrown);
+}
+
+#header {
+  background-color: color(dred);
+  margin: 0;
+  word-spacing: 3px;
+}
+
+#navbar {
+  background-color: color(pink);
+  margin: auto;
+  word-spacing: 40px;
+}
+#navbar ul {
+  text-align: center;
+  padding: 10px;
+  list-style: none;
+}
+
+#navbar li {
+  display: inline;
+  font-size: 5vh;
+  text-shadow: 1px 1px 0 #333;
+}
+
+.post {
+  margin: auto;
+  display: flex;
+  background-color: color(vpink);
+  width: 60%;
+  padding: 3vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.post2 img {
+  width: 50%;
+  height: 40%;
+}
+
+.post3 img {
+  width: 50%;
+  height: 40%;
+}
