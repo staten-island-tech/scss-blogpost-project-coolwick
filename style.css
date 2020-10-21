@@ -1,27 +1,40 @@
+#header h1 {
+  font-size: 2rem;
+  color: color(lpurple);
+  word-spacing: 5rem;
+  letter-spacing: 2rem;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  font-family: "Sansita Swashed", cursive;
+}
+
+#navbar a {
+  text-decoration: none;
+}
+
 body {
   background-color: #66240f;
+  font-family: "Hind Guntur";
+  margin: auto;
 }
 
 #header {
   background-color: #990000;
-  padding: 2em;
+  padding: 1rem;
   margin: auto;
-  word-spacing: 20px;
-  letter-spacing: 9px;
-  text-align: center;
-  color: white;
-  font-size: 2vh;
 }
 
 #navbar {
   background-color: #e0a3ad;
-  margin: 0 10%;
+  margin: 0 7rem;
   word-spacing: 30vh;
+  border-radius: 30%;
 }
 
 #navbar ul {
   text-align: center;
-  padding: 20px;
+  padding: 1rem;
   list-style: none;
 }
 
@@ -32,7 +45,6 @@ body {
 }
 
 .post {
-  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -49,23 +61,22 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-radius: 20%;
 }
 
-.post2 img {
+.bad-img {
+  padding: 5px;
   width: 50%;
-  height: 40%;
 }
 
-.post3 img {
+.good-img {
+  padding: 5px;
   width: 50%;
-  height: 40%;
 }
 
 .more {
   background-color: #66240f;
   color: #fff5eb;
   padding: 20px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 /*# sourceMappingURL=style.css.map */

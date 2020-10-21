@@ -7,31 +7,26 @@
 
 body {
   background-color: color(dbrown);
-  font-family: $fontext;
-  border-radius: 20%;
+  font-family: $fontText;
+  margin: auto;
 }
 
 #header {
   background-color: color(dred);
-  padding: 2em;
+  padding: 1rem;
   margin: auto;
-  word-spacing: 20px;
-  letter-spacing: 9px;
-  text-align: center;
-  color: white;
-  font-size: 2vh;
 }
 
 #navbar {
   background-color: color(pink);
-  margin: 0 10%;
+  margin: 0 7rem;
   word-spacing: 30vh;
-  text-decoration: none;
+  border-radius: 30%;
 }
 
 #navbar ul {
   text-align: center;
-  padding: 20px;
+  padding: 1rem;
   list-style: none;
 }
 
@@ -41,36 +36,25 @@ body {
   text-shadow: 1px 1px 0 #333;
 }
 
-.container {
-}
-
 .post {
   display: flex;
   background-color: color(vpink);
   width: 50%;
   padding: 3vh;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   border-radius: 20%;
 }
 
-.post1 {
-  border-radius: 15px;
-}
-
-.post1 img {
-}
-
-.post2 img {
+.bad-img {
   padding: 5px;
   width: 50%;
-  height: 40%;
 }
 
-.post3 img {
+.good-img {
   padding: 5px;
   width: 50%;
-  height: 40%;
 }
 
 .more {

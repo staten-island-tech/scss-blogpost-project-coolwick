@@ -1,6 +1,14 @@
 #header h1 {
-  font-size: 5rem;
+  font-size: 2rem;
   color: color(lpurple);
-  font-family: ;
-  text-decoration: underline;
+  word-spacing: 5rem;
+  letter-spacing: 2rem;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  font-family: $fontheader;
+}
+
+#navbar a {
+  text-decoration: none;
 }
