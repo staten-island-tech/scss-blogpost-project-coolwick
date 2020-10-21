@@ -6,7 +6,8 @@ body {
   background-color: #990000;
   padding: 2em;
   margin: auto;
-  word-spacing: 3px;
+  word-spacing: 20px;
+  letter-spacing: 9px;
   text-align: center;
   color: white;
   font-size: 2vh;
@@ -15,7 +16,7 @@ body {
 #navbar {
   background-color: #e0a3ad;
   margin: 0 10%;
-  word-spacing: 40px;
+  word-spacing: 30vh;
 }
 
 #navbar ul {

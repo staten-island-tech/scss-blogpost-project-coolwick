@@ -1,4 +1,5 @@
 @import "_variables.scss";
+@import "_text.scss";
 
 @function color($color-name) {
   @return map-get($colors, $color-name);
@@ -6,13 +7,16 @@
 
 body {
   background-color: color(dbrown);
+  font-family: $fontext;
+  border-radius: 20%;
 }
 
 #header {
   background-color: color(dred);
   padding: 2em;
   margin: auto;
-  word-spacing: 3px;
+  word-spacing: 20px;
+  letter-spacing: 9px;
   text-align: center;
   color: white;
   font-size: 2vh;
@@ -21,8 +25,10 @@ body {
 #navbar {
   background-color: color(pink);
   margin: 0 10%;
-  word-spacing: 40px;
+  word-spacing: 30vh;
+  text-decoration: none;
 }
+
 #navbar ul {
   text-align: center;
   padding: 20px;
@@ -35,23 +41,34 @@ body {
   text-shadow: 1px 1px 0 #333;
 }
 
+.container {
+}
+
 .post {
-  margin: auto;
   display: flex;
   background-color: color(vpink);
   width: 50%;
   padding: 3vh;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  border-radius: 20%;
+}
+
+.post1 {
+  border-radius: 15px;
+}
+
+.post1 img {
 }
 
 .post2 img {
+  padding: 5px;
   width: 50%;
   height: 40%;
 }
 
 .post3 img {
+  padding: 5px;
   width: 50%;
   height: 40%;
 }
@@ -60,5 +77,4 @@ body {
   background-color: color(dbrown);
   color: color(white);
   padding: 20px;
-  box-sizing: border-box;
 }
