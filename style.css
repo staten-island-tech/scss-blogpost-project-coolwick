@@ -1,35 +1,42 @@
 #header h1 {
   font-size: 2rem;
   color: color(lpurple);
-  word-spacing: 5rem;
+  word-spacing: 3rem;
   letter-spacing: 2rem;
   text-align: center;
   color: white;
   font-size: 3rem;
   font-family: "Sansita Swashed", cursive;
+  font-weight: bold;
 }
 
 #navbar a {
-  text-decoration: none;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.post {
+  text-align: center;
 }
 
 body {
-  background-color: #66240f;
+  background-color: #004a38;
   font-family: "Hind Guntur";
   margin: auto;
+  color: #725454;
 }
 
 #header {
-  background-color: #990000;
+  background-color: #ffb619;
   padding: 1rem;
   margin: auto;
 }
 
 #navbar {
-  background-color: #e0a3ad;
+  background-color: #ffeb91;
   margin: 0 7rem;
   word-spacing: 30vh;
-  border-radius: 30%;
+  border-radius: 10%;
 }
 
 #navbar ul {
@@ -41,15 +48,26 @@ body {
 #navbar li {
   display: inline;
   font-size: 5vh;
-  text-shadow: 1px 1px 0 #333;
+  text-shadow: 2px 2px 0 #333;
+}
+
+#navbar a {
+  color: #e6415c;
+  text-decoration: none;
+  -webkit-text-decoration-color: chocolate;
+          text-decoration-color: chocolate;
+}
+
+#navbar a:hover {
+  color: goldenrod;
 }
 
 .post {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #ffcccc;
-  width: 50%;
+  background-color: #fff0dd;
+  width: 40%;
   padding: 3vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -62,21 +80,25 @@ body {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 20%;
+  margin: 3% 30%;
 }
 
-.bad-img {
-  padding: 5px;
-  width: 50%;
-}
-
-.good-img {
-  padding: 5px;
+img {
+  padding-bottom: 1rem;
   width: 50%;
 }
 
 .more {
-  background-color: #66240f;
-  color: #fff5eb;
-  padding: 20px;
+  background-color: #362053;
+  border-radius: 10%;
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.more:hover {
+  color: turquoise;
 }
 /*# sourceMappingURL=style.css.map */
