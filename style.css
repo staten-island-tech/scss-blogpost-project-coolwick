@@ -4,19 +4,23 @@ body {
 
 #header {
   background-color: #990000;
-  margin: 0;
+  padding: 2em;
+  margin: auto;
   word-spacing: 3px;
+  text-align: center;
+  color: white;
+  font-size: 2vh;
 }
 
 #navbar {
   background-color: #e0a3ad;
-  margin: auto;
+  margin: 0 10%;
   word-spacing: 40px;
 }
 
 #navbar ul {
   text-align: center;
-  padding: 10px;
+  padding: 20px;
   list-style: none;
 }
 
@@ -32,7 +36,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   background-color: #ffcccc;
-  width: 60%;
+  width: 50%;
   padding: 3vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -54,5 +58,13 @@ body {
 .post3 img {
   width: 50%;
   height: 40%;
+}
+
+.more {
+  background-color: #66240f;
+  color: #fff5eb;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 /*# sourceMappingURL=style.css.map */
