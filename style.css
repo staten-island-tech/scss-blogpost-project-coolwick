@@ -96,8 +96,8 @@ img {
 .more {
   background-color: #362053;
   border-radius: 10%;
-  padding: 10px;
-  font-size: 18px;
+  padding: 1rem;
+  font-size: 1rem;
   color: white;
   font-style: italic;
   font-weight: bold;
