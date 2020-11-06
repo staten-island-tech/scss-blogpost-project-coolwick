@@ -5,7 +5,9 @@
   @return map-get($colors, $color-name);
 }
 
-body {
+html,
+body,
+* {
   background-color: color(green);
   font-family: $fontText;
   margin: auto;
